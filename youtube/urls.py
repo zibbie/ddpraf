@@ -19,5 +19,6 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('idea/', include('ideas.urls'))
+    path('idea/', include('ideas.urls')),
+    path('apisv1/', include('ideas.urls'))
 ]
